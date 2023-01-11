@@ -1,0 +1,16 @@
+:root {
+    --olive: #59653E;
+    --pale: #FAF5F4;
+    --blueHeavy: #22396d;
+    --blueLight: #005289;
+    --gold: #E7C788;
+}
+
+#emailForm{
+    border: 3px solid var(--gold);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--blueLight);
+    margin: 30px;
+}
