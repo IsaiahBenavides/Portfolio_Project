@@ -29,6 +29,10 @@ background-size: cover;
     margin-bottom: 20px;
 }
 
+#logo > img {
+    
+}
+
 .navbar{
     border: solid 3px var(--blueHeavy);
     background-color: var(--blueLight);
