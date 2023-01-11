@@ -1,0 +1,50 @@
+:root {
+    --olive: #59653E;
+    --pale: #FAF5F4;
+    --blueHeavy: #22396d;
+    --blueLight: #005289;
+    --gold: #E7C788;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #59653E;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2322396d' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23e7c788' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%231f3e73' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23f4cd9f' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%231b4379' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23fcd5b6' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%2315487e' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ffdecd' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%230d4d84' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23fee9e2' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23005289' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23faf5f4' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+#top{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 18vw;
+    /* max-height: 20vh; */
+    /* display: grid; */
+}
+
+#top > *{
+    max-height: 10vh;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+#logo > img{
+    max-height: 10vh;
+}
+
+.navbar{
+    border: solid 3px var(--blueHeavy);
+    background-color: var(--blueLight);
+    /* max-width: 400px; */
+}
+
+.navbar-nav > a{
+    color: var(--gold);
+}
+
+#resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
