@@ -29,8 +29,8 @@ background-size: cover;
     margin-bottom: 20px;
 }
 
-#logo > img {
-    
+#logo > img{
+    max-height: 10vh;
 }
 
 .navbar{
