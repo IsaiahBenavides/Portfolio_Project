@@ -91,9 +91,3 @@ background-size: cover;
     background-color: var(--pale);
     text-align: center;
 }
-
-#resume{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
