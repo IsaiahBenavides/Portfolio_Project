@@ -36,7 +36,6 @@ background-size: cover;
 .navbar{
     border: solid 3px var(--blueHeavy);
     background-color: var(--blueLight);
-    /* max-width: 400px; */
 }
 
 .navbar-nav > a{
@@ -55,16 +54,12 @@ background-size: cover;
 .d-block{
     width: 450px;
     height: 243px;
-    /* width: 50vw; */
 }
 
 #textContainer{
     display: grid;
     grid-template-columns: 25% auto;
     margin: 35px;
-    
-    /* border: solid 3px var(--blueHeavy); */
-    /* background-color: var(--blueLight); */
 }
 
 #externalLinks{

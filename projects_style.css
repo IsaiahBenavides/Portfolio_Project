@@ -1,0 +1,32 @@
+:root {
+    --olive: #59653E;
+    --pale: #FAF5F4;
+    --blueHeavy: #22396d;
+    --blueLight: #005289;
+    --gold: #E7C788;
+}
+
+#allProjects{
+    display: flex;
+    justify-content: center;
+    border: solid 3px var(--gold);
+    background-color: var(--pale);
+    margin: 10px;
+    padding: 15px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#cardContainer{
+    display: grid;
+    height: 80vh;
+    width: 90vw;
+    grid-template-columns: repeat(3, 33.3%) ;
+    grid-template-rows: repeat(2, 50%);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+#cardContainer > *{
+    border: solid 3px var(--blueHeavy);
+}
