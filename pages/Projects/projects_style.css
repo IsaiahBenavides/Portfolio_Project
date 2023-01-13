@@ -29,5 +29,4 @@
 
 #cardContainer > *{
     border: solid 3px var(--blueHeavy);
-    padding: 2px;
 }
