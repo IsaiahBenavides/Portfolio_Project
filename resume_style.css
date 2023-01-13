@@ -1,0 +1,13 @@
+:root {
+    --olive: #59653E;
+    --pale: #FAF5F4;
+    --blueHeavy: #22396d;
+    --blueLight: #005289;
+    --gold: #E7C788;
+}
+
+#resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
