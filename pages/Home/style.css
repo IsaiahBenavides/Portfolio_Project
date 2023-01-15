@@ -34,12 +34,12 @@ body {
 }
 
 .navbar {
-  border: solid 3px var(--blueHeavy);
+  border: solid 3px var(--gold);
   background-color: var(--blueLight);
 }
 
 .navbar-nav > a {
-  color: var(--gold);
+  margin-left: 8px;
 }
 
 #carouselWithIndicators {
