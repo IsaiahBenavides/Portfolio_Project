@@ -30,9 +30,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="/pages/Resume/resume.html">Resume</a>
-            <a class="nav-item nav-link" href="/pages/Contact_Me/contact_me.html">Contact Me</a>
-            <a class="nav-item nav-link" href="/pages/Projects/projects.html">Projects</a>
+            <a class="nav-item nav-link" href="/pages/Resume/resume.html"
+              >Resume</a
+            >
+            <a
+              class="nav-item nav-link"
+              href="/pages/Contact_Me/contact_me.html"
+              >Contact Me</a
+            >
+            <a class="nav-item nav-link" href="/pages/Projects/projects.html"
+              >Projects</a
+            >
           </div>
         </div>
       </nav>
@@ -42,29 +50,39 @@
     </div>
 
     <div id="emailForm">
-      <form>
+      <form action="https://formspree.io/f/mayznndr" method="POST">
         <div class="form-group">
           <div class="form-row">
-            <div class="col">
+            <div id="input-field" class="col">
               <input
                 type="text"
                 class="form-control form-control-lg"
-                placeholder="From"
+                placeholder="Name"
+                name="Name"
               />
             </div>
-            <div class="col">
+            <div id="input-field" class="col">
               <input
                 type="text"
                 class="form-control form-control-lg"
-                placeholder="Subject"
+                placeholder="Phone No."
+                name="Phone"
+              />
+            </div>
+            <div id="input-field" class="col">
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                placeholder="Email Address"
+                name="Email"
               />
             </div>
           </div>
         </div>
-        <div class="form-group">
-          <textarea class="form-control" rows="4"></textarea>
+        <div id="input-field" class="form-group">
+          <textarea class="form-control" rows="10" name="Message" placeholder="Message"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Send</button>
+        <button type="submit" value="Submit" class="btn btn-primary send-btn">Send</button>
       </form>
     </div>
 
