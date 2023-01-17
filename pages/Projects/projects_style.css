@@ -30,3 +30,11 @@
 #cardContainer > *{
     border: solid 3px var(--gold);
 }
+
+.card-img-top {
+    height: 204px;
+}
+
+.card-text{
+    font-size: 0.85rem;
+}

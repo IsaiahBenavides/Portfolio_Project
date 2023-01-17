@@ -18,24 +18,27 @@ body {
 #top {
   display: flex;
   justify-content: space-evenly;
-  gap: 18vw;
-  /* max-height: 20vh; */
-  /* display: grid; */
+  gap: 33.3vw;
+  /* border: solid 3px var(--gold);
+  background-color: var(--blueLight);
+  margin-bottom: 30px; */
 }
 
 #top > * {
-  max-height: 10vh;
+  max-height: 7.5vh;
   margin: 10px;
   margin-bottom: 20px;
 }
 
 #logo > img {
-  max-height: 10vh;
+  max-height: 7.5vh;
+  border: solid 3px var(--gold);
+  background-color: var(--olive);
 }
 
 .navbar {
   border: solid 3px var(--gold);
-  background-color: var(--blueLight);
+  background-color: var(--olive);
 }
 
 .navbar-nav > a {
@@ -49,6 +52,10 @@ body {
 }
 #carouselWithIndicators > * {
   max-height: 30vh;
+}
+
+.carousel-caption {
+  background-color: #0000007c;
 }
 
 .d-block {
